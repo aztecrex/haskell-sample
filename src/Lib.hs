@@ -1,6 +1,8 @@
 module Lib
-    ( someFunc
+    ( go
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+go :: IO ()
+go = putStrLn "Nothing successfully completed."
+
+
